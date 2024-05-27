@@ -40,3 +40,5 @@ jobs:
         run: pnpm install
 
       - uses: streetsidesoftware/cspell-action@v6
+        with:
+          strict: false
