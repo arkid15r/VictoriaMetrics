@@ -10,5 +10,8 @@
     "@cspell/dict-software-terms": "^3.3.25",
     "@cspell/dict-uk-ua": "^4.0.1",
     "@cspell/dict-win32": "^2.0.3"
+  },
+  "dependencies": {
+    "cspell": "^8.8.3"
   }
 }
