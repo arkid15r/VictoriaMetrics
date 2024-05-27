@@ -8,9 +8,9 @@ on:
     paths:
       - 'docs/**'
   push:
-    branches:
-      - cluster
-      - master
+    # branches:
+    #   - cluster
+    #   - master
     paths:
       - 'docs/**'
   workflow_dispatch: {}
