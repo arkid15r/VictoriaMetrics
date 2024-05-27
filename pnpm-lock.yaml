@@ -1,0 +1,94 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@cspell/dict-aws':
+        specifier: ^4.0.2
+        version: 4.0.2
+      '@cspell/dict-companies':
+        specifier: ^3.1.1
+        version: 3.1.1
+      '@cspell/dict-data-science':
+        specifier: ^2.0.1
+        version: 2.0.1
+      '@cspell/dict-en_us':
+        specifier: ^4.3.21
+        version: 4.3.21
+      '@cspell/dict-fullstack':
+        specifier: ^3.1.8
+        version: 3.1.8
+      '@cspell/dict-golang':
+        specifier: ^6.0.9
+        version: 6.0.9
+      '@cspell/dict-k8s':
+        specifier: ^1.0.4
+        version: 1.0.4
+      '@cspell/dict-software-terms':
+        specifier: ^3.3.25
+        version: 3.3.25
+      '@cspell/dict-uk-ua':
+        specifier: ^4.0.1
+        version: 4.0.1
+      '@cspell/dict-win32':
+        specifier: ^2.0.3
+        version: 2.0.3
+
+packages:
+
+  '@cspell/dict-aws@4.0.2':
+    resolution: {integrity: sha512-aNGHWSV7dRLTIn8WJemzLoMF62qOaiUQlgnsCwH5fRCD/00gsWCwg106pnbkmK4AyabyxzneOV4dfecDJWkSxw==}
+
+  '@cspell/dict-companies@3.1.1':
+    resolution: {integrity: sha512-hooOyJ1q3o5tGkUOXyTY04psiYdyrcJkoQHMA4gX0zJzj+pQJCL812V+z9aI4vl1Qhjxfp2YHKF60DM+EndqGQ==}
+
+  '@cspell/dict-data-science@2.0.1':
+    resolution: {integrity: sha512-xeutkzK0eBe+LFXOFU2kJeAYO6IuFUc1g7iRLr7HeCmlC4rsdGclwGHh61KmttL3+YHQytYStxaRBdGAXWC8Lw==}
+
+  '@cspell/dict-en_us@4.3.21':
+    resolution: {integrity: sha512-Bzoo2aS4Pej/MGIFlATpp0wMt9IzVHrhDjdV7FgkAIXbjrOn67ojbTxCgWs8AuCNVfK8lBYGEvs5+ElH1msF8w==}
+
+  '@cspell/dict-fullstack@3.1.8':
+    resolution: {integrity: sha512-YRlZupL7uqMCtEBK0bDP9BrcPnjDhz7m4GBqCc1EYqfXauHbLmDT8ELha7T/E7wsFKniHSjzwDZzhNXo2lusRQ==}
+
+  '@cspell/dict-golang@6.0.9':
+    resolution: {integrity: sha512-etDt2WQauyEQDA+qPS5QtkYTb2I9l5IfQftAllVoB1aOrT6bxxpHvMEpJ0Hsn/vezxrCqa/BmtUbRxllIxIuSg==}
+
+  '@cspell/dict-k8s@1.0.4':
+    resolution: {integrity: sha512-p3RjEkiwh5b1gLkYUMV9w5MHqWYTI1Sm2j4x8QZ+NZHB53PORrjPDyWSaG4giqKYAfs3UYB7QZUyBt0Sb68Vsw==}
+
+  '@cspell/dict-software-terms@3.3.25':
+    resolution: {integrity: sha512-IrNpxU9q4R42ZO9qXm1lqKXqIJwS83eRvo2eDXVau9qEw26+wJqDAOJsdhmrBJ+Dj9Y6r+k70pu02qJTYRwBPg==}
+
+  '@cspell/dict-uk-ua@4.0.1':
+    resolution: {integrity: sha512-9igk+CsmsDlZfQDfpcIE62/0rfabb+tQLMfQhGaceHo92WQN5bsq/0/39HPw1Kl3Tps/D6MUL2YYVVlTYsa4Xg==}
+
+  '@cspell/dict-win32@2.0.3':
+    resolution: {integrity: sha512-UXiRdYxgnUVCbphHY3PE1/SEEF5g5alcVzHvVC6YH5eOVazDO8brxT87kytS5uxgvewPHmyFg9V29s4U9b5BVg==}
+
+snapshots:
+
+  '@cspell/dict-aws@4.0.2': {}
+
+  '@cspell/dict-companies@3.1.1': {}
+
+  '@cspell/dict-data-science@2.0.1': {}
+
+  '@cspell/dict-en_us@4.3.21': {}
+
+  '@cspell/dict-fullstack@3.1.8': {}
+
+  '@cspell/dict-golang@6.0.9': {}
+
+  '@cspell/dict-k8s@1.0.4': {}
+
+  '@cspell/dict-software-terms@3.3.25': {}
+
+  '@cspell/dict-uk-ua@4.0.1': {}
+
+  '@cspell/dict-win32@2.0.3': {}
