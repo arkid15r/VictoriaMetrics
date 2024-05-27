@@ -32,6 +32,9 @@ jobs:
         with:
           check-latest: true
           python-version: '3.12'
+      
+      - name: Set up pre-commit
+        run: make pre-commit-setup
 
       - name: Run pre-commit
         uses: pre-commit/action@v3.0.1
