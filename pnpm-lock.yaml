@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      cspell:
-        specifier: ^8.8.3
-        version: 8.8.3
     devDependencies:
       '@cspell/dict-aws':
         specifier: ^4.0.2
@@ -42,6 +38,9 @@ importers:
       '@cspell/dict-win32':
         specifier: ^2.0.3
         version: 2.0.3
+      cspell:
+        specifier: ^8.8.3
+        version: 8.8.3
 
 packages:
 
