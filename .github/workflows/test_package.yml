@@ -56,4 +56,4 @@ jobs:
           make release
 
       - name: Run release tests
-        run: make test-release-victoria-metrics
+        run: make test-victoria-metrics-release

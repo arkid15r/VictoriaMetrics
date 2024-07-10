@@ -70,6 +70,6 @@ github-delete-release: github-token-check
 			exit 1; \
 		fi
 
-test-release-victoria-metrics:
-	@go test -run TestVictoriaMetrics package/release/asset_test.go
+test-victoria-metrics-release:
+	@go test -run TestVictoriaMetricsRelease package/release/asset_test.go
 

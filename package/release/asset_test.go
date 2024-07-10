@@ -112,6 +112,6 @@ func testComponentAssets(t *testing.T, componentNames []string) {
 	}
 }
 
-func TestVictoriaMetrics(t *testing.T) {
+func TestVictoriaMetricsRelease(t *testing.T) {
 	testComponentAssets(t, []string{"victoria-metrics", "vmutils"})
 }
