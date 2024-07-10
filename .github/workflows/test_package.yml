@@ -6,6 +6,7 @@ on:
     #   - cluster
     #   - master
     paths:
+      - '.github/workflow/test_package.yml'
       - '**/Dockerfile*'
       - '**/Makefile'
   pull_request:
@@ -13,6 +14,7 @@ on:
       - cluster
       - master
     paths:
+      - '.github/workflow/test_package.yml'
       - '**/Dockerfile*' # The trailing * is for app/vmui/Dockerfile-*.
       - '**/Makefile'
 
