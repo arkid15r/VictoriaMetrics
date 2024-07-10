@@ -1,6 +1,9 @@
 GITHUB_RELEASE_SPEC_FILE="/tmp/vm-github-release"
 GITHUB_DEBUG_FILE="/tmp/vm-github-debug"
 
+asset-test-victoria-metrics:
+	@go test -run TestVictoriaMetrics package/release/asset_test.go
+
 github-token-check:
 ifndef GITHUB_TOKEN
 	$(error missing GITHUB_TOKEN env var. It must contain github token for VictoriaMetrics project obtained from https://github.com/settings/tokens)
