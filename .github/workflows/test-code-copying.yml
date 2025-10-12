@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: 0 # Required for complete history and tags.
       - name: Copy repository branches and tags
-        uses: arkid15r/copy-repository-code-action@main
+        uses: arkid15r/copy-repository-code-action@test
         with:
           branches: ${{ github.event.inputs.branches }}
           target_repository: ${{ github.event.inputs.target_repository }}
