@@ -9,19 +9,24 @@ jobs:
       - name: Checkout source repository
         uses: actions/checkout@v5
         with:
-          fetch-depth: 0  # Get all history and tags
-          
+          fetch-depth: 0 # Get all history and tags
+          persist-credentials: false # Don't persist default token
+
       - name: Copy to target repository
         env:
-          TARGET_REPOSITORY_TOKEN: ${{ secrets.TARGET_REPOSITORY_TOKEN }}
+          TARGET_TOKEN: ${{ secrets.TARGET_REPOSITORY_TOKEN }}
         run: |
-          # Add target remote
-          git remote add target https://x-access-token:${TARGET_REPOSITORY_TOKEN}@github.com/arkid15r/target-repository.git
-          
+          # Configure git to use the token
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add target remote with authentication
+          git remote add target https://x-access-token:${TARGET_TOKEN}@github.com/arkid15r/target-repository.git
+
           # Push selected branches
           git push target master:master --force
-          
+
           # Push all tags
           git push target --tags --force
-          
+
           echo "Repository copied successfully!"
