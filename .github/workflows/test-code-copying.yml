@@ -1,0 +1,26 @@
+name: Manual Repository Copy
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_repository:
+        description: 'Target repository (format: owner/repository)'
+        required: true
+      branches:
+        description: 'Comma-separated list of branches to copy'
+        required: true
+        default: 'main'
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Copy repository branches and tags
+        uses: arkid15r/copy-repository-code-action@main
+        with:
+          branches: ${{ github.event.inputs.branches }}
+          target_repository: ${{ github.event.inputs.target_repository }}
+          target_token: ${{ secrets.TARGET_REPOSITORY_TOKEN }}
