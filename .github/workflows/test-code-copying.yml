@@ -13,10 +13,10 @@ jobs:
           
       - name: Copy to target repository
         env:
-          TARGET_TOKEN: ${{ secrets.TARGET_TOKEN }}
+          TARGET_REPOSITORY_TOKEN: ${{ secrets.TARGET_REPOSITORY_TOKEN }}
         run: |
           # Add target remote
-          git remote add target https://x-access-token:${TARGET_TOKEN}@github.com/arkid15r/target-repository.git
+          git remote add target https://x-access-token:${TARGET_REPOSITORY_TOKEN}@github.com/arkid15r/target-repository.git
           
           # Push selected branches
           git push target master:master --force
